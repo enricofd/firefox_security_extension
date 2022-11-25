@@ -7,5 +7,5 @@ Therefore it provides the amount os cookies being used, as well as, if it is fir
 **How to run**  
 In your Firefox browser, search for "about:debugging", go to "This Firefox", "Load Temporary Add-On..." and finally select the app.js file of this project. The extension will be available with the rest of the extensions you own.
 
-**Author**
+**Author**  
 Enrico F. Damiani
