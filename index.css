@@ -1,0 +1,27 @@
+html, body {
+    width: 500px;
+    background-color:black;
+    padding: 0.2rem;
+}
+
+.name{
+    color:cyan;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    line-height: 10px;
+}
+
+.line{
+    color: gray;
+}
+
+.sub-title{
+    color: gray;
+    height: 10px;
+}
+
+.text-section{
+    color: gray;
+}
+

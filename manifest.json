@@ -1,0 +1,26 @@
+{
+  "name": "security-extension",
+  "version": "0.1",
+  "description": "A security extension for Firefox",
+
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_icon": "icons/logo.png",
+    "default_title": "Security Extension",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "13": "icons/logo.png"
+  },
+
+  "permissions": ["tabs", "<all_urls>", "cookies", "storage"],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
